@@ -1,0 +1,112 @@
+{
+  "FarmersMarket": {
+    "MarketDetails": [
+      {
+        "id": 1,
+        "marketName": "Downtown Farmers Market",
+        "location": "123 Main St, Downtown",
+        "hours": "Saturdays 8am - 2pm",
+        "contact": "info@downtownmarket.com",
+        "marketDescription": "A local farmers market with fresh produce and artisan goods."
+      }
+    ],
+    "Vendors": [
+      {
+        "id": 1,
+        "vendorName": "Smith's Produce",
+        "products": "Apples, Carrots, Lettuce",
+        "stall_number": "A1",
+        "contact": "smithsproduce@example.com",
+        "vendorDescription": "Fresh fruits and vegetables"
+      },
+      {
+        "id": 2,
+        "vendorName": "Jones's Dairy",
+        "products": "Milk, Cheese, Yogurt",
+        "stall_number": "B2",
+        "contact": "jonesdairy@example.com",
+        "vendorDescription": "Dairy products from local cows"
+      },
+      {
+        "id": 3,
+        "vendorName": "Baker's Treats",
+        "products": "Bread, Pastries, Cookies",
+        "stall_number": "C3",
+        "contact": "bakerstreats@example.com",
+        "vendorDescription": "Homemade baked goods"
+      }
+    ],
+    "theEvents": [
+      {
+        "id": 1,
+        "eventName": "Spring Harvest Festival",
+        "eventDate": "2024-08-01",
+        "eventDescription": "Celebrate the spring harvest with us!",
+        "participating_vendors": "Smith's Produce, Jones's Dairy"
+      },
+      {
+        "id": 2,
+        "eventName": "Autumn Craft Fair",
+        "eventDate": "2024-09-21",
+        "eventDescription": "Local artisans showcase their crafts",
+        "participating_vendors": "Baker's Treats"
+      }
+    ],
+    "Products": [
+      {
+        "id": 1,
+        "productName": "Apple",
+        "vendor_id": 1,
+        "price": 1.00,
+        "category": "Fruits",
+        "availability": true
+      },
+      {
+        "id": 2,
+        "productName": "Carrot",
+        "vendor_id": 1,
+        "price": 0.50,
+        "category": "Vegetables",
+        "availability": true
+      },
+      {
+        "id": 3,
+        "productName": "Milk",
+        "vendor_id": 2,
+        "price": 2.50,
+        "category": "Dairy",
+        "availability": true
+      },
+      {
+        "id": 4,
+        "productName": "Cheese",
+        "vendor_id": 2,
+        "price": 5.00,
+        "category": "Dairy",
+        "availability": true
+      },
+      {
+        "id": 5,
+        "productName": "Bread",
+        "vendor_id": 3,
+        "price": 3.00,
+        "category": "Baked Goods",
+        "availability": true
+      }
+    ],
+    "Reviews": [
+      {
+        "id": 1,
+        "reviewerName": "John Doe",
+        "reviewText": "Great variety of fresh produce!",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "reviewerName": "Jane Smith",
+        "reviewText": "Love the dairy products from Jones's Dairy!",
+        "rating": 4
+      }
+    ]
+  }
+}
